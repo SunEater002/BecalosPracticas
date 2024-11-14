@@ -44,14 +44,16 @@ nav{
 nav a {
     text-decoration: none;
     padding: 10px 15px;
+    scroll-behavior: smooth;
 
 }
 
-/*nav a:hover{
-    background-color: #e1b07a;
+nav a:hover{
+    background-color:#ce5ec3;
     border-radius: 5px;
 }
 */
+
 .nav-list{
     display: flex;
     list-style: none;
