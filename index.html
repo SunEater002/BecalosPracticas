@@ -5,72 +5,33 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>BAKERY'S</title>
     <link rel="website icon" type="jpg"
-    href="./icons/icon-star.svg">
+    href="./logos/logoyiye.png">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 <!--HEADER DE LA PAGINA-->
+  <header>
+    <img src="./logos/logoyiye.png" alt="logo" id="arriba">
+    <nav>
+        <ul>
+            <a href="#especiales">ESPECIALES</a>
+            <a href="#productos">PRODUCTOS</a>
+            <a href="#reseñas">RESEÑAS</a>
+            <a href="#carrito">CARRITO</a>
+        </ul>
+    </nav>
+         
+  </header>
 
-    <header>
-            <img src="./logos/logoyiye.png" alt="LogoTemporal" width="80px" height="80px" id="arriba">
-            <nav>
-                <details close>
-                    <summary>
-                        <a href="#especiales"><img src="logos/estrella-removebg-preview.png" alt="especiales" width="22px" height="22px"> Especiales</a>
-                    </summary>
-                </details>
-                <details close>
-                    <summary>
-                      <img src="logos/productos-removebg-preview.png" alt="productos" width="22px" height="22px">
-                      Productos
-                    </summary>
-                    <ul>
-                      <li>
-                        <a href="#producto1">
-                          Producto 1
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#producto2">
-                          Producto 2
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#producto3">
-                          Producto 3
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#producto4">
-                          Producto 4
-                        </a>
-                      </li>
-                    </ul>
-                  </details>
-                  <details close>
-                    <summary>
-                        <a href="#reseñas" aria-label="reseñas"><img src="logos/reseñas-removebg-preview.png" alt="reseñas" width="21px" height="21px"> Reseñas</a>
-                    </summary>
-                    </details>
-                  <details close>
-                    <summary>
-                        <a href="#carrito" aria-label="Ver carrito de compras"><img src="logos/carrito-removebg-preview.png" alt="Carrito de compras" width="20px" height="20px"> Carrito</a>
-                    </summary>
-                    </details>
-            </nav>
-    </header>
-
-    <main>
-
-
+   <main>
     <!--SECCION PRESENTACION-->
 
       <section class="presentacion">
         <div class="texto1">
             <h1>¡LOS MEJORES PASTELES PARA TODA LA OCASION!</h1>
-                <h3>BAKERY'S CAKE SHOP</h3>
-                <button class="boton_ordena">ORDENA AHORA</button>
+                <h3>YIYE'S CAKE SHOP</h3>
+                <button>ORDENA AHORA</button>
         </div>
         <span class="image-hero">
             <img src="images/cakes-hero.png" alt="pastel1" class="slide-active">
@@ -80,23 +41,49 @@
       <!--SECCION ESPECIALES-->
 
         <section class="especiales" id="especiales">
-            <article>
-                <h2>ESPECIALES</h2>
-                <span>texto1<img src="images/cakes-1.png" alt="espacial1" width="300px" height="300px"><button>ORDENAR AHORA</button></span>
-                <span>texto2<img src="images/cakes-2.png" alt="especial2" width="300px" height="300px"><button>ORDENAR AHORA</button></span>
-                <span>texto3<img src="images/cakes-3.png" alt="especial3" width="300px" height="300px"><button>ORDENAR AHORA</button></span>
-            </article>
+
+          <h1>ESPECIALES</h1>
+
+          <div class="carousel">
+            <section class="seccion1">
+              <h2>SECCION 1</h2>
+              <p>contenido 1</p>  
+              <img src="./images/cakes-1.png" alt="moto">  
+          </section>
+
+          <section class="seccion1">
+              <h2>SECCION 2</h2>
+              <p>contenido 2</p>
+              <img src="./images/cakes-2.png" alt="moto">
+          </section> 
+
+          <section class="seccion1">
+              <h2>SECCION 3</h2>
+              <p>contenido 3</p>
+              <img src="./images/cakes-3.png" alt="moto">
+          </section>
+
+          <section class="seccion1">
+              <h2>SECCION 4</h2>
+              <p>contenido 4</p>
+              <img src="./images/cakes-4.png" alt="moto">
+          </section>
+          </div>
+          
+          <button class="prev">Anterior</button>
+          <button class="next">Siguiente</button> 
+
         </section>
 
      <!--SECCION FAVORITOS-->
 
         <section class="favoritos" id="favoritos">
-            <article>
-                <h2>FAVORITOS</h2>
-                <span>texto1<img src="images/cakes-4.png" alt="espacial1"><button>ORDENAR AHORA</button></span>
-                <span>texto2<img src="images/cakes-5.png" alt="especial2"><button>ORDENAR AHORA</button></span>
-                <span>texto3<img src="images/cakes-6.png" alt="especial3"><button>ORDENAR AHORA</button></span>
-            </article>
+          <article>
+            <h2>FAVORITOS</h2>
+            <span>texto1<img src="images/cakes-4.png" alt="espacial1"><button>ORDENAR AHORA</button></span>
+            <span>texto2<img src="images/cakes-5.png" alt="especial2"><button>ORDENAR AHORA</button></span>
+            <span>texto3<img src="images/cakes-6.png" alt="especial3"><button>ORDENAR AHORA</button></span>
+        </article>
         </section>
 
     
@@ -202,5 +189,6 @@
           <a id="scroll_arriba" href="#arriba">Arriba</a>
     </div>
 
+    <script src = "./js/index.js"></script>
 </body>
 </html>
