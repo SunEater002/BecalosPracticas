@@ -13,7 +13,7 @@ html{
   }
 
 
-/*---------*/
+/*------SECCION DEL HEADER ---*/
 
 header{ 
     background-color:#587897;
@@ -38,7 +38,8 @@ nav a{
     padding: 20px 20px;
     color: aliceblue;
     font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 20px;
 }
 
 nav a:hover{
@@ -50,7 +51,7 @@ nav a:hover{
 
 /*--------*/
 
-/* DISEÑOS DE SECCIONES */
+/* SECCION PRESENTACION */
 
 
 .presentacion{
@@ -67,7 +68,7 @@ nav a:hover{
 .presentacion button{
     display: flex;
     cursor: pointer;
-    background-color: #ce5ec3;
+    background-color: #b93ead;
     color: aliceblue;
     text-decoration: none;
     border-radius: 20px;
@@ -75,6 +76,10 @@ nav a:hover{
     border: none;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.presentacion a{
+    text-decoration: none;
 }
 
 .presentacion button:hover{
@@ -90,9 +95,10 @@ nav a:hover{
     color:#0e4153;
 }
 
-/* ----- */
+/* --- SECCION ESPECIALES-- */
 
 .especiales{
+    color:#0e4153;
     display: flex;
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -103,26 +109,39 @@ nav a:hover{
     text-align: left;
     justify-content: center;
     gap: 10px;
+    font-size:larger;
 }
 
 .carousel{
     display: flex;
     overflow: hidden;
-    width: 100%;
-    justify-content: center;
-    gap: 10px;
 }
 
-.carousel img{
+.seccion1{
     min-width: 100%;
     transition: transform 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border:solid 3px rgb(68, 52, 92);
+    border-radius: 80px;
+}
+
+.seccion1 img{
+    max-width: 40%;
+    height: 40%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .especiales button{
-    background-color:rgb(104, 127, 161);
+    background-color: #b93ead;
     color:aliceblue;
-    height: 70px;
-    width: 80px;
+    height: 80px;
+    width: 90px;
     margin-top: 200px;
     border-radius: 15px;
     cursor: pointer;
@@ -133,19 +152,18 @@ nav a:hover{
 }
 
 .especiales button:hover{
-    background-color:black;
+    background-color:#83167a;
     color: aliceblue;
     transition: 0.1s;
 }
 
 .especiales img{
-   width: 100%;
-   height: 200px;
-   margin: auto;
-}
+    width: 100%;
+    height: 200px;
+    margin: auto;
+ }
 
-
-/*----*/
+/*------ SECCION FAVORITOS ----*/
 
 .favoritos{
     display: flex;
@@ -228,10 +246,11 @@ nav a:hover{
 
 
 #scroll_arriba {
-    background-color:#0e4153;
-    color: #fff;
+    background-color: #b93ead;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:aliceblue;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     position: fixed;
     bottom: 10px;
@@ -241,12 +260,12 @@ nav a:hover{
 }
 
 #scroll_arriba:hover {
-    background-color:#0e4153;
+    background-color:#83167a;
 }
 
 #scroll_arriba a {
     text-decoration: none;
-    color: #fff;
+    color:aliceblue;
 }
 
 .sociales button {
@@ -293,7 +312,13 @@ nav a:hover{
     .nav-list.active{
         display: flex;
     }
+
+    .seccion1{
+        flex: 1 1 calc(50% - 20px);
+    }
 }
+
+
 
 
 

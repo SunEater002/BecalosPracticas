@@ -1,15 +1,24 @@
-let currentIndex = 0;
-const images = document.querySelectorAll('.carousel-image');
-const totalImages = images.length;
+const sections = document.querySelectorAll('.seccion1');
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
+    let currentIndex = 0;
 
-document.querySelector('.next').addEventListener('click', () => {
-    images[currentIndex].style.display = 'none'; // Oculta la imagen actual
-    currentIndex = (currentIndex + 1) % totalImages; // Incrementa el índice
-    images[currentIndex].style.display = 'block'; // Muestra la nueva imagen
-});
+    function updateCarousel() {
+        const totalSections = sections.length;
+        sections.forEach((section, index) => {
+            section.style.transform = `translateX(-${currentIndex * 100}%)`;
+        });
+    }
 
-document.querySelector('.prev').addEventListener('click', () => {
-    images[currentIndex].style.display = 'none'; // Oculta la imagen actual
-    currentIndex = (currentIndex - 1 + totalImages) % totalImages; // Decrementa el índice
-    images[currentIndex].style.display = 'block'; // Muestra la nueva imagen
-});
+    prevButton.addEventListener('click', () => {
+        currentIndex = (currentIndex > 0) ? currentIndex - 1 : sections.length - 1;
+        updateCarousel();
+    });
+
+    nextButton.addEventListener('click', () => {
+        currentIndex = (currentIndex < sections.length - 1) ? currentIndex + 1 : 0;
+        updateCarousel();
+    });
+
+    // Inicializa el carrusel
+    updateCarousel();
