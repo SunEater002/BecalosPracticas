@@ -23,6 +23,7 @@ header{
     display: flex;
     margin-top: 20px;
     border-radius: 30px;
+    box-shadow: 0 6px 10px rgba(3, 3, 3, 0.623);
 }
 
 header img{
@@ -63,6 +64,7 @@ nav a:hover{
     text-align: left;
     margin-top: 20px;
     border-radius: 30px;
+    box-shadow: 0 6px 10px rgba(3, 3, 3, 0.623);
 }
 
 .presentacion button{
@@ -110,6 +112,7 @@ nav a:hover{
     justify-content: center;
     gap: 10px;
     font-size:larger;
+    box-shadow: 0 6px 10px rgba(3, 3, 3, 0.623);
 }
 
 .carousel{
@@ -125,20 +128,20 @@ nav a:hover{
     align-items: center;
     text-align: center;
     padding: 10px;
-    border:solid 3px rgb(68, 52, 92);
     border-radius: 80px;
 }
 
 .seccion1 img{
-    max-width: 40%;
-    height: 40%;
+    max-width: 35%;
+    height: 50%;
     margin-bottom: 10px;
     border-radius: 15px;
     margin-bottom: 10px;
+    box-shadow: 0 6px 10px rgba(3, 3, 3, 0.623);
 }
 
 .especiales button{
-    background-color: #b93ead;
+    background-color: #b332a1;
     color:aliceblue;
     height: 80px;
     width: 90px;
@@ -147,7 +150,7 @@ nav a:hover{
     cursor: pointer;
     border: none;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 5px 5px;
 }
 
@@ -163,20 +166,70 @@ nav a:hover{
     margin: auto;
  }
 
+.especiales .boton_seccion{
+    background-color: #307e9b;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+}
+
 /*------ SECCION FAVORITOS ----*/
 
 .favoritos{
-    display: flex;
-    text-align: center;
+    color:#0e4153;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    margin-top: 20px;
+    border-radius: 30px;
     padding: 20px;
+    gap: 10px;
+    font-size:larger;
+    box-shadow: 0 6px 10px rgba(3, 3, 3, 0.623);
 }
 
-.reseñas{
-    border: solid blue 2px;
-    padding: 20px;
-    justify-content: center;
-    align-items:center;
+.favoritos h1{
+    text-align: center;
+}
+
+.favoritos .album{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.album img{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+ }
+
+.seccion2 img{
+    max-width: 50%;
+    height: 50%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 6px 10px rgba(3, 3, 3, 0.623);
+}
+
+
+
+/*------------*/
+
+.reseñas{
+    color:#0e4153;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: left;
+    justify-content: center;
+    gap: 10px;
+    font-size:larger;
+    box-shadow: 0 6px 10px rgba(3, 3, 3, 0.623);
 }
 
 .carrito {
@@ -185,6 +238,7 @@ nav a:hover{
     justify-content: space-between;
     padding: 20px;
     background-color:#c7e6f8;
+    margin-top: 20px;
 }
 
 .social{
