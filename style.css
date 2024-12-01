@@ -108,16 +108,24 @@ nav a:hover{
     margin-top: 20px;
     border-radius: 30px;
     padding: 20px;
-    text-align: left;
+    text-align: center;
     justify-content: center;
     gap: 10px;
     font-size:larger;
     box-shadow: 0 6px 10px rgba(3, 3, 3, 0.623);
 }
 
+
+
 .carousel{
     display: flex;
     overflow: hidden;
+}
+
+
+.carousel h1{
+    display: flex;
+    margin-top: 10%;
 }
 
 .seccion1{
@@ -129,6 +137,7 @@ nav a:hover{
     text-align: center;
     padding: 10px;
     border-radius: 80px;
+    background-color: #93c0bc;
 }
 
 .seccion1 img{
@@ -151,7 +160,7 @@ nav a:hover{
     border: none;
     font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 5px 5px;
+    padding: 5px 10px;
 }
 
 .especiales button:hover{
@@ -196,6 +205,7 @@ nav a:hover{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .album img{
@@ -230,7 +240,25 @@ nav a:hover{
     gap: 10px;
     font-size:larger;
     box-shadow: 0 6px 10px rgba(3, 3, 3, 0.623);
+    flex-direction: row-reverse;
 }
+
+.reseñas h2{
+    padding: 30px;
+}
+
+.reseñas .usuarios{
+    display: flex;
+    gap: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+
+/*--------------------*/
 
 .carrito {
     display: flex;
@@ -247,6 +275,22 @@ nav a:hover{
     justify-content:space-around;
     padding: 20px;
     gap: 20px;
+}
+
+.social h2{
+    color:#0e4153;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: left;
+    justify-content: center;
+    gap: 10px;
+    font-size:larger;
+    box-shadow: 0 6px 10px rgba(3, 3, 3, 0.623);
 }
 
 .final{
@@ -325,7 +369,7 @@ nav a:hover{
 .sociales button {
     flex: 1;
     margin: 0 5px;
-    background-color:#ce5ec3; /* Color de fondo */
+    background-color: #b332a1; /* Color de fondo */
     border: none; /* Sin borde */
     color: white; /* Color del texto */
     padding: 5px 10px; /* Espaciado interno */
@@ -341,7 +385,7 @@ nav a:hover{
 }
 
 .sociales button:hover {
-    background-color:#b95cb0; /* Color de fondo al pasar el mouse */
+    background-color:#83167a; /* Color de fondo al pasar el mouse */
 }
 
 
