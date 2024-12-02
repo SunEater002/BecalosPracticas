@@ -10,7 +10,7 @@ El proyecto busca ofrecer a la pastelería una plataforma para atraer más clien
 
 1. *Clona este repositorio:*
     bash
-    git clone https://github.com/JulioEAN/ProyectBakery.git
+    git clone https://github.com/SunEater002/BecalosPracticas.git
     
 
 2. *Navega al directorio del proyecto:*
@@ -25,11 +25,10 @@ No se requieren instalaciones adicionales. Asegúrate de tener un navegador web 
 
 ## Autores
 
-
+- *Carlos Omar Ramirez Terwogt* - Correo: omar.terwogt21@gmail.com - GitHub: [SunEatee002](https://github.com/SunEatee002)
 - *Denisse Yuleidith Oliva* - GitHub: [yuleiditho](https://github.com/yuleiditho)
 - *Julio Ernesto Arreola Nieto* - Correo: arreolanietojulioernesto@gmail.com - GitHub: [JulioEAN](https://github.com/JulioEAN)
 - *Lisbeth Nohemi Jimenez Lopez* - Correo: lj5072354@gmail.com - GitHub: [jimloxc9912](https://github.com/jimloxc9912)
-- *Carlos Omar Ramirez Terwogt* - Correo: omar.terwogt21@gmail.com - GitHub: [SunEatee002](https://github.com/SunEatee002)
 - *Eduardo Medina Castillo* - Correo: luzverde908@gmail.com - GitHub: [Medina-908](https://github.com/Medina-908)
 - *Valeria Rivero López* - Correo: valeria.rivero.lopez@gmail.com - GitHub: [valerilo28](https://github.com/valerilo28)
 - *Itzel Andrea Estrada Ramírez* - Correo: andrearames24@gmail.com - GitHub: [AndreassLou](https://github.com/AndreassLou)
@@ -48,7 +47,7 @@ El diseño de la página se inspiró en los siguientes ejemplos:
 ## Otros Detalles
 
 ### GitHub Pages
-Este proyecto está desplegado en *GitHub Pages*. Puedes ver la página web en vivo en el siguiente enlace: [Ver Proyecto en GitHub Pages](https://JulioEAN.github.io/ProyectBakery).
+Este proyecto está desplegado en *GitHub Pages*. Puedes ver la página web en vivo en el siguiente enlace: [Ver Proyecto en GitHub Pages](https://suneater002.github.io/BecalosPracticas/).
 
 ### Notas Adicionales
 - Los cambios en el proyecto se gestionan mediante *Git*. Asegúrate de seguir las buenas prácticas de commit (mensajes claros y commits frecuentes) para mantener el proyecto organizado.
@@ -56,5 +55,5 @@ Este proyecto está desplegado en *GitHub Pages*. Puedes ver la página web en v
 
 ---
 
-*Creado por: *Eduardo Medina Castillo, Denisse Yuleidith Oliva, Julio Ernesto Arreola Nieto, Lisbeth Nohemi Jimenez Lopez, Carlos Omar Ramirez Terwogt, Valeria Rivero López, Itzel Andrea Estrada Ramírez  
+*Creado por: *Carlos Omar Ramirez Terwogt, Eduardo Medina Castillo, Denisse Yuleidith Oliva, Julio Ernesto Arreola Nieto, Lisbeth Nohemi Jimenez Lopez, Valeria Rivero López, Itzel Andrea Estrada Ramírez  
 *GitHub*:  [yuleiditho](https://github.com/yuleiditho), [JulioEAN](https://github.com/JulioEAN), [jimloxc9912](https://github.com/jimloxc9912), [SunEatee002](https://github.com/SunEatee002),[Medina-908](https://github.com/Medina-908), [valerilo28](https://github.com/valerilo28), [AndreassLou](https://github.com/AndreassLou)

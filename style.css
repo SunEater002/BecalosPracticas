@@ -240,7 +240,7 @@ nav a:hover{
     gap: 10px;
     font-size:larger;
     box-shadow: 0 6px 10px rgba(3, 3, 3, 0.623);
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 .reseñas h2{
@@ -295,8 +295,19 @@ nav a:hover{
 
 .final{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 20px;
+    text-align: center;
+    
+}
+
+.final a{
+    text-decoration: none;
+    color: black;
+}
+
+.final a:hover{
+    text-decoration:underline;
 }
 
 /* DISEÑO IMAGENES ESTRELLAS */
